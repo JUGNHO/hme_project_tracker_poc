@@ -1,0 +1,348 @@
+{
+    "Account": [{
+        "GFIPEXT": "Sales - new vehicle rental",
+        "GFIPEX": "41032110",
+        "MFIPEXT": "REINVOICE",
+        "MFIPEX": "41032"
+    }, {
+        "GFIPEXT": "Sales Furniture - Dealer Development",
+        "GFIPEX": "41032120",
+        "MFIPEXT": "REINVOICE",
+        "MFIPEX": "41032"
+    }, {
+        "GFIPEXT": "Re-Invoicing VH Reparations",
+        "GFIPEX": "41032980",
+        "MFIPEXT": "REINVOICE",
+        "MFIPEX": "41032"
+    }, {
+        "GFIPEXT": "Sales discount - POS Material",
+        "GFIPEX": "41032984",
+        "MFIPEXT": "REINVOICE",
+        "MFIPEX": "41032"
+    }, {
+        "GFIPEXT": "Sales - commercial signeage",
+        "GFIPEX": "41032986",
+        "MFIPEXT": "REINVOICE",
+        "MFIPEX": "41032"
+    }, {
+        "GFIPEXT": "Sales - other advertising",
+        "GFIPEX": "41032987",
+        "MFIPEXT": "REINVOICE",
+        "MFIPEX": "41032"
+    }, {
+        "GFIPEXT": "Sales - Publitrans pos material",
+        "GFIPEX": "41032989",
+        "MFIPEXT": "REINVOICE",
+        "MFIPEX": "41032"
+    }, {
+        "GFIPEXT": "Sales - POS Material",
+        "GFIPEX": "41032990",
+        "MFIPEXT": "REINVOICE",
+        "MFIPEX": "41032"
+    }, {
+        "GFIPEXT": "Reinvoicing to dealers (VAT 19,6%)",
+        "GFIPEX": "41032994",
+        "MFIPEXT": "REINVOICE",
+        "MFIPEX": "41032"
+    }, {
+        "GFIPEXT": "Sales - other services",
+        "GFIPEX": "41032996",
+        "MFIPEXT": "REINVOICE",
+        "MFIPEX": "41032"
+    }, {
+        "GFIPEXT": "Sales - pos material transport",
+        "GFIPEX": "41032997",
+        "MFIPEXT": "REINVOICE",
+        "MFIPEX": "41032"
+    }, {
+        "GFIPEXT": "Press campaign",
+        "GFIPEX": "51011011",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Magazines advertising",
+        "GFIPEX": "51011020",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "TV Campaign",
+        "GFIPEX": "51011030",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Radio campaign",
+        "GFIPEX": "51011041",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Poster campaign",
+        "GFIPEX": "51011051",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Catalogues \/ printing - other",
+        "GFIPEX": "51011061",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Catalogues \/ printing - publitrans",
+        "GFIPEX": "51011062",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Photo development",
+        "GFIPEX": "51011100",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "supplier reception",
+        "GFIPEX": "51011111",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Customer reception",
+        "GFIPEX": "51011112",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Press Presentations",
+        "GFIPEX": "51011114",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "dealer convetion fees",
+        "GFIPEX": "51011115",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Paris motor show",
+        "GFIPEX": "51011116",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Regional shows",
+        "GFIPEX": "51011117",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Network campaign",
+        "GFIPEX": "51011119",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Sporting events and other sponsorships",
+        "GFIPEX": "51011120",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Internet campaign",
+        "GFIPEX": "51011131",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "HMC\/HME Fleet Fund Support",
+        "GFIPEX": "51011992",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "HMC\/HME Dealer Network Support",
+        "GFIPEX": "51011993",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "HMC\/HME SUPPORT Others",
+        "GFIPEX": "51011994",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Fees - advertising agency",
+        "GFIPEX": "51011995",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Fees - advertising agancy",
+        "GFIPEX": "51011996",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Production fees - ad agency",
+        "GFIPEX": "51011997",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "HMC\/HME MKT Support",
+        "GFIPEX": "51011998",
+        "MFIPEXT": "ADVERTISING EXPENSES",
+        "MFIPEX": "51011"
+    }, {
+        "GFIPEXT": "Fees - commercial advice",
+        "GFIPEX": "51023012",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "Fees - fiscal advice",
+        "GFIPEX": "51023013",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "payroll service",
+        "GFIPEX": "51023015",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "Web site maintenance",
+        "GFIPEX": "51023016",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "Recruiting consulting commissions",
+        "GFIPEX": "51023017",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "Fees - social advice",
+        "GFIPEX": "51023018",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "Audit fees",
+        "GFIPEX": "51023019",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "Recruitment Agency Fees",
+        "GFIPEX": "51023020",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "IT service charge",
+        "GFIPEX": "51023041",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "IT service charge",
+        "GFIPEX": "51023042",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "IT service charge - SERGESA",
+        "GFIPEX": "51023043",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "Royalties to  National\/Local Organizations",
+        "GFIPEX": "51023061",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "Sundry reports",
+        "GFIPEX": "51023991",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "Fees - Translations",
+        "GFIPEX": "51023992",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "Fees - photographers",
+        "GFIPEX": "51023993",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "Fees- VH Expert Assessment",
+        "GFIPEX": "51023994",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "Fees - other",
+        "GFIPEX": "51023995",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "Fees - documents and credit collection",
+        "GFIPEX": "51023996",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "Detached staff (Sergesa)",
+        "GFIPEX": "51023997",
+        "MFIPEXT": "OTHER COMMISSIONS",
+        "MFIPEX": "51023"
+    }, {
+        "GFIPEXT": "Gifts to customers",
+        "GFIPEX": "51035061",
+        "MFIPEXT": "SALES PROMOTION COSTS",
+        "MFIPEX": "51035"
+    }, {
+        "GFIPEXT": "Other gifts",
+        "GFIPEX": "51035063",
+        "MFIPEXT": "SALES PROMOTION COSTS",
+        "MFIPEX": "51035"
+    }, {
+        "GFIPEXT": "Commercial Support - Zone Manager Budget",
+        "GFIPEX": "51035091",
+        "MFIPEXT": "SALES PROMOTION COSTS",
+        "MFIPEX": "51035"
+    }, {
+        "GFIPEXT": "Dealership upgrading",
+        "GFIPEX": "51035092",
+        "MFIPEXT": "SALES PROMOTION COSTS",
+        "MFIPEX": "51035"
+    }, {
+        "GFIPEXT": "Used VH corporate identity bonus",
+        "GFIPEX": "51035093",
+        "MFIPEXT": "SALES PROMOTION COSTS",
+        "MFIPEX": "51035"
+    }, {
+        "GFIPEXT": "Dealer Incentive Trips",
+        "GFIPEX": "51035094",
+        "MFIPEXT": "SALES PROMOTION COSTS",
+        "MFIPEX": "51035"
+    }, {
+        "GFIPEXT": "Dealer launches",
+        "GFIPEX": "51035095",
+        "MFIPEXT": "SALES PROMOTION COSTS",
+        "MFIPEX": "51035"
+    }, {
+        "GFIPEXT": "Dealer shop building modification",
+        "GFIPEX": "51035096",
+        "MFIPEXT": "SALES PROMOTION COSTS",
+        "MFIPEX": "51035"
+    }, {
+        "GFIPEXT": "Service Manager Budget",
+        "GFIPEX": "51035097",
+        "MFIPEXT": "SALES PROMOTION COSTS",
+        "MFIPEX": "51035"
+    }, {
+        "GFIPEXT": "Dealer competitions - prizes",
+        "GFIPEX": "51035141",
+        "MFIPEXT": "SALES PROMOTION COSTS",
+        "MFIPEX": "51035"
+    }, {
+        "GFIPEXT": "Dealer competitions - organisation costs",
+        "GFIPEX": "51035142",
+        "MFIPEXT": "SALES PROMOTION COSTS",
+        "MFIPEX": "51035"
+    }, {
+        "GFIPEXT": "Dealer Commercial Support",
+        "GFIPEX": "51035990",
+        "MFIPEXT": "SALES PROMOTION COSTS",
+        "MFIPEX": "51035"
+    }, {
+        "GFIPEXT": "Other supplier costs - sales",
+        "GFIPEX": "51035991",
+        "MFIPEXT": "SALES PROMOTION COSTS",
+        "MFIPEX": "51035"
+    }, {
+        "GFIPEXT": "Hyundai brand promotion",
+        "GFIPEX": "51035992",
+        "MFIPEXT": "SALES PROMOTION COSTS",
+        "MFIPEX": "51035"
+    }, {
+        "GFIPEXT": "existing dealer support",
+        "GFIPEX": "51035993",
+        "MFIPEXT": "SALES PROMOTION COSTS",
+        "MFIPEX": "51035"
+    }]
+}

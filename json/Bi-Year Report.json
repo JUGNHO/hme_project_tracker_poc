@@ -1,0 +1,31 @@
+{
+    "SearchCondition": {
+        "HALF": "1",
+        "IVCONF": "1",
+        "KOSTLT": "Administration",
+        "KOSTL": "31003",
+        "GJAHR": "2016",
+        "GEBER": ""
+    },
+    "ListTableData": [{
+        "CABUD": "-14766.45",
+        "MC6AMT": "417.56",
+        "AUPAMT": "0",
+        "FIPEXT": "DEPRECIATION_TANGIBLE ASSETS",
+        "MC1AMT": "3378.56",
+        "ABPAMT": "0",
+        "GEBER": "31003",
+        "H2PAMT": "0",
+        "MC2AMT": "3000.77",
+        "MC3AMT": "3196.09",
+        "KOSTLT": "Administration",
+        "WAERS": "EUR",
+        "MC4AMT": "2829.13",
+        "GEBERT": "Administration",
+        "TOTAMT": "14766.45",
+        "MC5AMT": "1944.34",
+        "FIPEX": "51033",
+        "KOSTL": "31003",
+        "HUPAMT": "0"
+    }]
+}

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMS</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="../css/plugins/bootstraptable/style.css" rel="stylesheet">
+    <!-- Sweet Alert -->
+    <link href="../css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+    <link href="../css/plugins/dataTables/datatables.min.css" rel="stylesheet">
+    <!-- datepicker -->
+    <link href="../css/plugins/datapicker/datepicker3.css" rel="stylesheet">
+    <link href="../css/plugins/dropzone/basic.css" rel="stylesheet">
+    <link href="../css/plugins/dropzone/dropzone.css" rel="stylesheet">
+    
+    <!-- Toastr style -->
+    <link href="../css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+    <link href="../css/animate.css" rel="stylesheet">
+    <link href="../css/style.css?timestamp=1701707731000" rel="stylesheet">
+</head>
+<body class="mini-navbar">
+    <form id="form" name="form" method="post">
+        <input type="hidden" name="bukrs">
+        <input type="hidden" name="gjahr">
+        <input type="hidden" name="bnumb">  
+        <input type="hidden" name="utype">  
+        <input type="hidden" name="trngb">  
+        <input type="hidden" name="frdat">  
+        <input type="hidden" name="todat">  
+        <input type="hidden" name="cmd">    
+        <input type="hidden" name="bgstat">
+        <input type="hidden" name="smonth">
+        <input type="hidden" name="emonth">
+        <input type="hidden" name="kostl">
+        <input type="hidden" name="geber">
+        <input type="hidden" name="saknr">
+        <input type="hidden" name="t_kostl">
+        <input type="hidden" name="t_geber">
+        <input type="hidden" name="t_saknr">
+        <input type="hidden" name="t_kostlt">
+        <input type="hidden" name="t_gebert">
+        <input type="hidden" name="t_saknrt">
+        <input type="hidden" name="viewName">
+        <input type="hidden" name="style">
+        <input type="hidden" name="param">
+        <input type="hidden" name="message">
+    </form>	
+    <div id="wrapper">
+        <nav class="navbar-default navbar-static-side" role="navigation">
+         <div class="sidebar-collapse in">
+             <ul class="nav metismenu" id="side-menu">
+                 <li class="nav-header">
+                     <div class="dropdown profile-element">
+                         <a data-toggle="dropdown" class="dropdown-toggle" href="">
+                             <span class="clear">
+                                 <span class="block m-t-xs user-info">
+                                     <strong class="font-bold">
+                                         <i class="fa fa-user"></i> Jungho Oh </strong>
+                                     <b class="caret"></b>
+                                 </span>
+                             </span>
+                         </a>
+
+                         <span class="clear">
+                             <span class="block m-t-xs user-desc" style="font-size:12px">
+                                 <nobr>
+                                     <span style="color:#ffffff">IT &amp; Digitization</span>
+                                 </nobr>
+                             </span>
+                         </span>
+
+                         <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                             <li>
+                                 <a href="#">
+                                     <span rv-i18n-label="PROFILE">Profile</span>
+                                 </a>
+                             </li>
+                             <li class="divider"></li>
+                             <li>
+                                 <a href="#">
+                                     <span rv-i18n-label="LOGOUT">Logout</span>
+                                 </a>
+                             </li>
+                             <li>
+                                 <div id="modal_data_profile_area" class="display_n"></div>
+                             </li>
+                         </ul>
+                     </div>
+                     <div class="logo-element margin-r5">
+                         <img src="../img/etc/bms_png.png" width="37px" height="37px">
+                     </div>
+                 </li>
+
+                 <li class="in">
+                     <a href="#" data-toggle="tooltip" title="" data-original-title="Purchase Order">
+                         <i class="fa fa-building"></i>
+                         <span class="nav-label">Project Tracker</span>
+                     </a>
+                     <ul class="nav nav-second-level collapse">
+                         <li id="requesting_purchase_order">
+                             <a href="project_tracker_to_request_list.html" data-toggle="tooltip" title="" data-original-title="To request">
+                                 <i class="fa fa-pencil"></i>To request </a>
+                         </li>
+                         <li id="approval_purchase_order">
+                             <a href="project_tracker_to_approve_list.html" data-toggle="tooltip" title="" data-original-title="To approve">
+                                 <i class="fa fa-magic"></i>To approve </a>
+                         </li>
+                         <li id="requesting_purchase_order_set">
+                             <a href="project_tracker_to_change_list.html" data-toggle="tooltip" title="" data-original-title="To complete">
+                                 <i class="fa fa-file-text"></i>To change </a>
+                         </li>
+                     </ul>
+                 </li>
+
+             </ul>
+         </div>
+        </nav>
+        <div id="page-wrapper" class="gray-bg">
+            <div class="row border-bottom" id="page-header">
+                <div id="top_area"></div>
+            </div>
+            <div class="row wrapper border-bottom white-bg page-heading">                
+                <div id="navigation_area"></div>
+            </div>
+        <div class="wrapper wrapper-content animated fadeInRight" id="div_full_screen">
+        <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins" style="margin-bottom: 0px !important;">
+                <div class="ibox-title">
+                    <h5>Project Tracker</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a href="#" id="btn_expand">
+                        <i class="fa fa-expand"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-download"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="#" id="btn_excel"><i class="fa fa-file-excel-o"></i> <span rv-i18n-button="EXCEL"></span></a>
+                            </li>
+                            <li><a href="#" id="btn_print"><i class="fa fa-print"></i> <span rv-i18n-button="PRINT"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div class="row">
+                        <div class="col-sm-3 m-b-xs">
+                            <label class="control-label">Status</label>
+                            <select class="input-sm form-control" >
+                                <option value=" ">All</option>
+                                <option value="3">Approval Completed</option>
+                                <option value="1">Approval Request</option>
+                                <option value="2">Approval in Progress</option>
+                                <option value="8">Deleted</option>
+                                <option value="$">Hold</option>
+                                <option value="6">Hold Request</option>
+                                <option value="9">Rejected</option>
+                                <option value="X">Reversed in SAP</option>
+                            </select>
+                        </div>
+
+                        <div class="col-sm-4 m-b-xs">
+                            <label class="control-label" rv-i18n-label="POSTING_DATE">Posting Date</label>
+                            <div class="input-group">
+                                <div class="input-group date">
+                                    <span class="input-group-addon" data-toggle="tooltip" data-placement="bottom" title="" id="from_add" data-original-title="Calendar"><i class="fa fa-calendar"></i></span>
+                                    <input type="text" class="input-sm form-control" placeholder="" id="frdat" value="">
+                                </div>
+                                <span class="input-group-addon" style="border-width:0px;">~</span>
+                                <div class="input-group date">
+                                    <span class="input-group-addon" data-toggle="tooltip" data-placement="bottom" title="" id="to_add" style="border-right-width:0px;" data-original-title="Calendar"><i class="fa fa-calendar"></i></span>
+                                    <input type="text" class="input-sm form-control" placeholder="" id="todat" value="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 m-b-xs">
+                            <div class="btn-group" style="margin-top: 20px;">
+                                <button type="button" class="btn btn-sm btn-primary" id="btn_search"><i class="fa fa-search"></i> <span rv-i18n-button="INQUIRY">Inquiry</span></button> 
+                                <button type="button" class="btn btn-sm btn-success" id="btn_create" data-original-title="" title=""><i class="fa fa-file-text"></i> <span rv-i18n-button="NEW">New</span></button> 
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="col-lg-12" id="list_data_area">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-content">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <table id="list_table" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                                    <thead>
+                                        <tr>
+                                            <th>No</th>
+                                            <th>Item No</th>
+                                            <th>Status</th>
+                                            <th>Title</th>
+                                            <th>Posting Date</th>
+                                            <th></th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr >
+                                            <td>2200003722</td>
+                                            <td>1</td>
+                                            <td>Approval Request</td>
+                                            <td>Title Text</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2200003722</td>
+                                            <td>2</td>
+                                            <td>Approval Request</td>
+                                            <td>Title Text</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+
+        <div id="modal_contents_area" class="display_n"></div>
+
+        <!-- Mainly scripts -->
+        <script src="../js/jquery-2.1.1.js?timestamp=1522066345000"></script>
+        <script src="../js/jquery-ui-1.10.4.min.js?timestamp=1522066345000"></script>
+        <script src="../js/bootstrap.min.js?timestamp=1522066345000"></script>
+        <script src="../js/plugins/metisMenu/jquery.metisMenu.js?timestamp=1522066345000"></script>
+        <script src="../js/plugins/slimscroll/jquery.slimscroll.min.js?timestamp=1522066345000"></script>
+        <!-- Peity -->
+        <script src="../js/plugins/peity/jquery.peity.min.js?timestamp=1522066345000"></script>
+        <!-- Custom and plugin javascript -->
+        <script src="../js/plugins/pace/pace.min.js?timestamp=1522066345000"></script>
+        <!-- iCheck -->
+        <script src="../js/plugins/iCheck/icheck.min.js?timestamp=1522066345000"></script>
+        <!-- Sweet alert -->
+        <script src="../js/plugins/sweetalert/sweetalert.min.js?timestamp=1522066345000"></script>
+        <!-- Data picker -->
+        <script src="../js/plugins/datapicker/bootstrap-datepicker.js?timestamp=1522066345000"></script>
+        <!-- data tables -->
+        <script src="../js/plugins/dataTables/datatables.min.js?timestamp=1522066345000"></script>
+        <script src="../js/plugins/dataTables/dataTables.fixedColumns.min.js?timestamp=1522066345000"></script>
+        <script src="../js/plugins/dataTables/dataTables.responsive.min.js?timestamp=1522066345000"></script>
+
+        <!-- DROPZONE -->
+        <script src="../js/plugins/dropzone/dropzone.js?timestamp=1522066345000"></script>
+
+        <!-- Toastr -->
+        <script src="../js/plugins/toastr/toastr.min.js?timestamp=1522066345000"></script>
+
+        <!-- Idle Timer -->
+        <script src="../js/plugins/idle-timer/idle-timer.min.js?timestamp=1522066345000"></script>
+
+        <script src="../js/plugins/i18n-properties/jquery.i18n.properties.min.js?timestamp=1522066345000"></script>
+        <script src="../js/bms-resourcebundle.js?timestamp=1522066345000"></script>
+        <script src="../js/plugins/rvExport/rv-export.min.js?timestamp=1522066345000"></script>
+
+        <script src="../js/constants.js?timestamp=1701707731000"></script>
+        <script src="../js/common.js?timestamp=1701707731000"></script>
+        <script src="../js/bms-global.js?timestamp=1701707731000"></script>
+        <!--<script src="../js/bms-init.js?timestamp=1701707731000"></script>-->
+        <script src="../js/bms-util.js?timestamp=1701707731000"></script>
+        <script src="../js/bms-validator.js?timestamp=1701707731000"></script>
+        <script src="../js/bms-dom.js?timestamp=1701707731000"></script>
+        <script src="../js/common_data.js?timestamp=1701707731000"></script>    
+        <script src="../js/common_modal.js?timestamp=1701707731000"></script>
+        <script src="../js/common_init.js?timestamp=1701707731000"></script>
+        <script src="../js/common_valid.js?timestamp=1701707731000"></script>
+        <script src="../model/CommonList.model.json"></script>
+        <script src="../model/BudgetList.model.json"></script>
+        <script type="text/javascript">
+  	
+        var flag = false;
+        var selectRow = 0;
+        var oTable = "";
+
+        var pageDom = {
+
+            loadDate : function(){
+                $('.input-group.date').datepicker({
+                    format: constants.c_date_Lformat,
+                    todayBtn: "linked",
+                    keyboardNavigation: false,
+                    forceParse: false,
+                    calendarWeeks: true,
+                    autoclose: true,
+                    todayHighlight: true,
+                    language: 'de'
+                });
+                
+            },
+
+            loadICheck : function(){
+                $('.i-checks').iCheck({
+                    checkboxClass: 'icheckbox_square-green',
+                    radioClass: 'iradio_square-green',
+                });
+            }
+        };
+
+        function loadPageDom(){
+            pageDom.loadDate();
+            pageDom.loadICheck();
+        }
+
+        function bindEvent() {
+            oTable = $('#list_table').DataTable();
+
+            $('#btn_create').on('click', function(){
+                document.location.href = 'project_tracker_to_request_new.html';
+            });
+
+            $('#list_table tbody tr').on('click', function(){
+                document.location.href = 'project_tracker_to_request_detail.html';
+            });
+
+
+        }
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+    	// setParameterData();
+        bindEvent();
+        // doSearch();
+        //showToast();
+    });
+</script>
+<script src="../js/bms-init.js?timestamp=1701707731000"></script>
+</body>
+</html>
+</body></html>

@@ -1,0 +1,104 @@
+var jsonData = {	
+	"ListData" :  {
+      	"CABUD": 0.00,
+        "MC6AMT": 0.00,
+        "AUPAMT": 0.00,
+        "FIPEXT": "",
+        "MC1AMT": 0.00,
+        "ABPAMT": 0.00,
+        "GEBER": "",
+        "H2PAMT": 0.00,
+        "MC2AMT": 0.00,
+        "MC3AMT": 0.00,
+        "KOSTLT": "",
+        "WAERS": "",
+        "MC4AMT": 0.00,
+        "GEBERT": "",
+        "TOTAMT": 0.00,
+        "MC5AMT": 0.00,
+        "FIPEX": "",
+        "KOSTL": "",
+        "HUPAMT": 0.00,
+        "MC01AMT": 0.00,
+        "MC02AMT": 0.00,
+        "MC03AMT": 0.00,
+        "MC04AMT": 0.00,
+        "MC05AMT": 0.00,
+        "MC06AMT": 0.00,
+        "MC07AMT": 0.00,
+        "MC08AMT": 0.00,
+        "MC09AMT": 0.00,
+        "MC10AMT": 0.00,
+        "MC11AMT": 0.00,
+        "MC12AMT": 0.00,
+        "UUPAMT": 0.00,
+        "P1MCAMT": 0.00,
+        "P2MCAMT": 0.00,
+        "P3MCAMT": 0.00,
+        "P4MCAMT": 0.00
+	},
+	
+    "ListTableData" :  [],
+	"ListDetailTableData" :  [],
+	"BudgetParamData" : {
+        "FLAG" : "",
+        "ROW" : "",
+		"KOSTL" : "",
+		"KOSTLT" : "",
+		"GEBER" : "",
+		"GEBERT" : "",
+		"MFIPEX" : "",
+		"MFIPEXT" : "",
+		"CABUD" : 0.00
+	},
+	"BudgetParamTableData" :  [],
+	"MenuListTableData" :  [],
+	"Message" :  [],
+	
+	"MessageKeyData" : [ 
+			  "DATE001", "DATE002", "DATE003", "DATE004", "DATE005", "DATE006", "DATE007", "DATE008", "DATE009", "DATE010"
+			  ,"CONFIRM001", "CONFIRM002", "CONFIRM003", "CONFIRM004", "CONFIRM005", "CONFIRM006", "CONFIRM007", "CONFIRM008", "CONFIRM009", "CONFIRM010"
+			  ,"CONFIRM011", "CONFIRM012", "CONFIRM013", "CONFIRM014", "CONFIRM015", "CONFIRM016", "CONFIRM017", "CONFIRM018", "CONFIRM019", "CONFIRM020"
+			  ,"CONFIRM021", "CONFIRM022", "CONFIRM023", "CONFIRM024", "CONFIRM025", "CONFIRM026", "CONFIRM027", "CONFIRM028", "CONFIRM029", "CONFIRM030"
+			  ,"CHECK001", "CHECK002", "CHECK003", "CHECK004", "CHECK005", "CHECK006", "CHECK007", "CHECK008", "CHECK009", "CHECK010"
+			  ,"CHECK011", "CHECK012", "CHECK013", "CHECK014", "CHECK015", "CHECK016", "CHECK017", "CHECK018", "CHECK019", "CHECK020"
+			  ,"CHECK021", "CHECK022", "CHECK023", "CHECK024", "CHECK025", "CHECK026", "CHECK027", "CHECK028", "CHECK029", "CHECK030"					
+			  ,"CHECK031", "CHECK032", "CHECK033", "CHECK034", "CHECK035", "CHECK036", "CHECK037", "CHECK038", "CHECK039", "CHECK040"					
+			  ,"AJAX001", "AJAX002", "AJAX003", "AJAX004", "AJAX005", "AJAX006", "AJAX007", "AJAX008", "AJAX009", "AJAX010"
+			  ,"AJAX011", "AJAX012", "AJAX013", "AJAX014", "AJAX015", "AJAX016", "AJAX017", "AJAX018", "AJAX019", "AJAX020"
+			  ,"AJAX021", "AJAX022", "AJAX023", "AJAX024", "AJAX025", "AJAX026", "AJAX027", "AJAX028", "AJAX029", "AJAX030"
+			  ,"AJAX031", "AJAX032", "AJAX033", "AJAX034", "AJAX035", "AJAX036", "AJAX037", "AJAX038", "AJAX039", "AJAX040"
+			  ,"ENQUIRY_NO_DATA", "NO_DATA"
+			  ,"ERROR001" , "ERROR002" , "ERROR003" , "ERROR004" , "ERROR005" , "ERROR006" , "ERROR007" , "ERROR008" , "ERROR009" , "ERROR010" 
+			  ,"ERROR011" , "ERROR012" , "ERROR013" , "ERROR014" , "ERROR015" , "ERROR016" , "ERROR017" , "ERROR018" , "ERROR019" , "ERROR020"
+			  ,"ERROR021" , "ERROR022" , "ERROR023" , "ERROR024" , "ERROR025" , "ERROR026" , "ERROR027" , "ERROR028" , "ERROR029" , "ERROR030"
+	],
+
+    "UserInfo" : {
+        "ADACC" : "",
+        "USRID" : "",
+        "UNAME" : "",
+        "BUKRS" : "",
+        "BUTXT" : "",
+        "ORGCD" : "",
+        "ORGNM" : "",
+        "POSCD" : "",
+        "POSNM" : "",
+        "WERKS" : "",
+        "KOSTL" : "",
+        "KTEXT" : "",
+        "FISTL" : "",
+        "FTEXT" : "",
+        "GSBER" : "",
+        "PRCTR" : "",
+        "MCTXT" : "",
+        "EMAIL" : "",
+        "PERSK" : "",
+        "SUBGP" : "",
+        "AUCLS" : "",
+        "BIZCD" : "",
+        "EPCHK" : "",
+        "WIDTH" : "",
+        "SPRAS" : ""
+    }
+}
