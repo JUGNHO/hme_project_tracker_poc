@@ -215,7 +215,7 @@ function doLogout(){
 //Log out 
 //==================================================
 function logout(){
-	doLogoutTime();				//Check Log out Time
+	// doLogoutTime();				//Check Log out Time
 /*	
 	try{
 		if(opener){
@@ -233,29 +233,29 @@ function logout(){
 	}
 */	
 	
-	try{
-		if(opener){
-			var hostname = window.location.hostname;
-			if(hostname === "qa-hr-eu.hyundai.eucorp.local" || hostname === "hr-eu.hyundai.eucorp.local"){
-				opener.top.location.href="/irj/servlet/prt/portal/prtroot/com.sap.portal.navigation.masthead.LogOutComponent?logout_submit=true";
-				setTimeout(function(){ window.close(); }, 500);
-			}else{
-				$("form:first").append("<input type='hidden' name='logout_submit' value='true'>");
-			    $("#form").attr("action","/irj/servlet/prt/portal/prtroot/com.sap.portal.navigation.masthead.LogOutComponent").submit();				
-			}
+	// try{
+	// 	if(opener){
+	// 		var hostname = window.location.hostname;
+	// 		if(hostname === "qa-hr-eu.hyundai.eucorp.local" || hostname === "hr-eu.hyundai.eucorp.local"){
+	// 			opener.top.location.href="/irj/servlet/prt/portal/prtroot/com.sap.portal.navigation.masthead.LogOutComponent?logout_submit=true";
+	// 			setTimeout(function(){ window.close(); }, 500);
+	// 		}else{
+	// 			$("form:first").append("<input type='hidden' name='logout_submit' value='true'>");
+	// 		    $("#form").attr("action","/irj/servlet/prt/portal/prtroot/com.sap.portal.navigation.masthead.LogOutComponent").submit();				
+	// 		}
 			
-			//opener.EPCM.raiseEvent("urn:com.sapportals.portal:user","logoff","");k=new Date().getTime();window.setTimeout(LSAPI.sessionPlugin._private.logoffDelay,50)
-		    //window.close();
-			//$("form:first").append("<input type='hidden' name='logout_submit' value='true'>");
-		    //$("#form").attr("action","/irj/servlet/prt/portal/prtroot/com.sap.portal.navigation.masthead.LogOutComponent").submit();
-		}else{
-			$("form:first").append("<input type='hidden' name='logout_submit' value='true'>");
-		    $("#form").attr("action","/irj/servlet/prt/portal/prtroot/com.sap.portal.navigation.masthead.LogOutComponent").submit();
-		}
-	}catch(e){
-		$("form:first").append("<input type='hidden' name='logout_submit' value='true'>");
-	    $("#form").attr("action","/irj/servlet/prt/portal/prtroot/com.sap.portal.navigation.masthead.LogOutComponent").submit();
-	}	
+	// 		//opener.EPCM.raiseEvent("urn:com.sapportals.portal:user","logoff","");k=new Date().getTime();window.setTimeout(LSAPI.sessionPlugin._private.logoffDelay,50)
+	// 	    //window.close();
+	// 		//$("form:first").append("<input type='hidden' name='logout_submit' value='true'>");
+	// 	    //$("#form").attr("action","/irj/servlet/prt/portal/prtroot/com.sap.portal.navigation.masthead.LogOutComponent").submit();
+	// 	}else{
+	// 		$("form:first").append("<input type='hidden' name='logout_submit' value='true'>");
+	// 	    $("#form").attr("action","/irj/servlet/prt/portal/prtroot/com.sap.portal.navigation.masthead.LogOutComponent").submit();
+	// 	}
+	// }catch(e){
+	// 	$("form:first").append("<input type='hidden' name='logout_submit' value='true'>");
+	//     $("#form").attr("action","/irj/servlet/prt/portal/prtroot/com.sap.portal.navigation.masthead.LogOutComponent").submit();
+	// }	
     
 }
 
@@ -2690,19 +2690,19 @@ function doLoginTime(){
 //Log out time
 //==================================================
 function doLogoutTime(){
-	if(typeof localStorage === 'undefined'|| localStorage === null){
-		console.log(' 1. HTML5 localStorage. ');
-	}else{
-		try{
-			localStorage.setItem("logout_time", common.getSystemTimeFormat());
-		}catch(e){
-			if (e == QUOTA_EXCEEDED_ERR) {
-				console.log('Exceeded quota!')
-			}
-		}
+	// if(typeof localStorage === 'undefined'|| localStorage === null){
+	// 	console.log(' 1. HTML5 localStorage. ');
+	// }else{
+	// 	try{
+	// 		localStorage.setItem("logout_time", common.getSystemTimeFormat());
+	// 	}catch(e){
+	// 		if (e == QUOTA_EXCEEDED_ERR) {
+	// 			console.log('Exceeded quota!')
+	// 		}
+	// 	}
 		
-		console.log("Logout Time = " + localStorage.getItem("logout_time"));
-	}
+	// 	console.log("Logout Time = " + localStorage.getItem("logout_time"));
+	// }
 }
 //New Add approval line - 03.03.2017 ==========================================================
 //Create
